@@ -7,3 +7,7 @@
     du catalina.out -h
 
 > -h(human) 以对人友好的单位输出，比如以 G 为单位
+
+#### 查看当前目前所有文件大小，不展示递归子目录
+
+> du -ah --max-depth=1

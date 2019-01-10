@@ -1,0 +1,2 @@
+本地 install jar 包：
+    mvn install:install-file -DgroupId=xxx -DartifactId=xxx -Dversion=xxx -Dpackaging=jar -Dfile=xxx.jar

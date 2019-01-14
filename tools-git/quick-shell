@@ -9,6 +9,6 @@ git checkout -b <branch-name> orgin/<branch-name>
 3. 合并多个提交
   # commithash 是最近的不需要参与合并的提交hash
   1. git rebase -i <commithash> 
-  2. 修改多个 pick 为一个 pick + 多个 squash
+  2. 将新提交的 pick 改成 squash，只保留最旧的提交前面是 pick
   3. 修改 commit message
   4. 如果想退出，git rebase --abort
